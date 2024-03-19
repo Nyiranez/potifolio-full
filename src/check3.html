@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check3</title>
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <div class="w-full h-24   flex flex-row justify-around items-center border-b">
+            <button class="bg-violet-900 text-white py-6"><a href="">Colorlib.</a></button>
+            <div class=" flex flex-row space-x-4">
+                <div>
+                    <button class=" rounded-full py-4 px-4 border"><img src="../images/shopping-cart.png"
+                            class="w-4 h-4"></button>
+
+                    <p class="text-gray-500">Choose Plan</p>
+                </div>
+                <div>
+                    <button class=" rounded-full py-4 px-4 border"> <img src="../images/cart2.png"
+                            class="w-4 h-4"></button>
+                    <p class="text-gray-500">Payment Details</p>
+                </div>
+                <div>
+                    <button class=" rounded-full py-4 px-4 border"> <img src="../images/download-icon.png"
+                            class="w-4 h-4"></button>
+                    <p class="text-gray-500">Download Files</p>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="bg-slate-100 w-full h-fit flex flex-col items-center ">
+        <h1 class="text-violet-700 text-xl font-bold">Complete Your Purchase</h1>
+        <p>You're <span><a href="" class="underline">5 minutes away</a></span> from having a template that amazes
+            potential clients.</p>
+        <div class="flex flex-row mt-8 space-x-6">
+            <div>
+                <div class=" h-80 bg-white border mt-4">
+                    <form class="py-4 px-4  ">
+                        <h2 class="font-bold">Step 2: Personal Info</h2>
+                        <h4 class="font-bold">Email Address<span class="text-red-800">*</span></h4>
+                        <p>We will send the purchase receipt to this address.</p>
+                        <input type="text" placeholder="Email Address" class="border w-full h-10 mt-4" required>
+                        <div class="flex flex-row mt-4 space-x-4">
+                            <div class="mt-4">
+                                <h4 class="font-bold">First name<span class="text-red-800" required>*</span></h4>
+                                <p>We will use this to personalize your account</p>
+                                <p>experience.</p>
+                                <input type="text" placeholder="First name" class="border w-full h-10 mt-4">
+                            </div>
+                            <div class="mt-4">
+                                <h4 class="font-bold">Last name</h4>
+                                <p>We will use this to personalize your account</p>
+                                <p>experience.</p>
+                                <input type="text" placeholder="Last name"class="border w-full h-10 mt-4">
+                            </div>
+                        </div>
+                        <button id="pay-btn" class="bg-yellow-500 mt-6 w-full text-2xl h-16">Pay<span
+                            class="text-sky-700">Pal</span></button>
+                    </form>
+
+                </div>
+               
+            </div>
+            <div>
+                <div class="w-96 h-96 bg-white border py-2 px-2">
+                    <h2 class="text-violet-600 border-b">Your Order Summary</h2>
+                    <div class="flex flex-row justify-between mt-4 border-b" id="removed1">
+                        <p>Lifetime</p>
+                        <p>$349.00</p>
+                        <button class="border-2 px-2 text-gray-400 hover:border-2 hover:border-indigo-500/100" id="remove1">REMOVE</button>
+                    </div>
+                    <div class="flex flex-row justify-between mt-4" id="removed2">
+                        <div>
+                            <p>Membership</p>
+                            <p class="italic text-sm">Billed once per year </p> 
+                            <p class="italic text-sm">until cancelled</p>
+                        </div>
+                       
+                        <p>$129.00</p>
+                        <button class="border-2  text-gray-400 hover:border-2 hover:border-indigo-500/100" id="remove2">REMOVE</button>
+                    </div>
+                    <div  class="flex flex-row justify-between mt-4 border-b" id="removed3">
+                        <p>Reopen</p>
+                        <p>$19.00</p>
+                        <button class="border-2 px-2 text-gray-400 hover:border-2 hover:border-indigo-500/100" id="remove3"><a href="carter.html">REMOVE</a></button>
+                    </div>
+                   
+                    <div class="flex flex-row justify-between mt-4 border-b">
+                        <p class="font-bold">Subtotal:</p>
+                        <p>$497.00</p>
+                        
+                    </div>
+                    <div class="flex flex-row justify-between mt-4 border-b-4">
+                        <p class="font-bold">TAX: (VAT RW)</p>
+                        <p>$0.00</p>
+                        
+                    </div>
+                    <div class="flex flex-row justify-between mt-4">
+                        <p class="text-violet-600 font-bold text-xl">Total:</p>
+                        <p>$497.00</p>
+                        
+                    </div>
+                </div>
+                <div class="w-96 h-72 bg-white border mt-6 py-8 px-8">
+                    <p class="text-violet-600">Even more Reasons to choose Colorlib</p>
+                    <ol class="mt-4">
+                        <li class="text-gray-400 underline" >14-day money-back guarantee</li>
+                        <li class="text-gray-400">550+ 5-star reviews</li>
+                        <li class="text-gray-400">20,000+ happy clients</li>
+                        <li class="text-gray-400">350,000+ active installs</li>
+                    </ol>
+                    <div class="mt-4">
+                        <img src="../images/pics3.png">
+                       
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="w-full h-16 bg-slate-100 flex flex-col items-center justify-center ">
+     <p class="text-gray-500">© 2017-2024 Colorlib. All rights reserved.</p>
+    </div>
+    <script src="../js/potifo3.js"></script>
+</body>
+
+</html>
